@@ -1,0 +1,11 @@
+{
+    "listitem": "Firefox",
+    "icon": "79bcf87ced39db78c4048884bf0e0cdba3ad09ade2358f757543a4f98724132f",
+    "progresstext": " No shady privacy policies or back doors for advertisers. Just a lightning fast browser that doesn’t sell you out.",
+    "trigger_list": [
+        {
+            "trigger": "firefox",
+            "path": "/Applications/Firefox.app/Contents/Info.plist"
+        }
+    ]
+},

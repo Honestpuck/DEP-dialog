@@ -1,0 +1,11 @@
+{
+    "listitem": "Sophos Endpoint",
+    "icon": "c70f1acf8c96b99568fec83e165d2a534d111b0510fb561a283d32aa5b01c60c",
+    "progresstext": "You’ll enjoy next-gen protection with Sophos Endpoint which doesn’t rely on signatures to catch malware.",
+    "trigger_list": [
+        {
+            "trigger": "sophosEndpoint",
+            "path": "/Applications/Sophos/Sophos Endpoint.app/Contents/Info.plist"
+        }
+    ]
+},

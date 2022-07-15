@@ -1,0 +1,11 @@
+{
+    "listitem": "Canva",
+    "icon": "9fc9ba03236c5741d5855f411814684c96e74ed7538bcc63e93d2214a8c534d9",
+    "progresstext": "Canva. Create amazing visual content with no design experience.",
+    "trigger_list": [
+        {
+            "trigger": "canva",
+            "path": "/Applications/Canva.app/Contents/Info.plist"
+        }
+    ]
+},

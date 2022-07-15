@@ -1,0 +1,11 @@
+{
+    "listitem": "Notion",
+    "icon": "",
+    "progresstext": "Notion. Work without distraction on your own or with your team",
+    "trigger_list": [
+        {
+            "trigger": "notion",
+            "path": "/Applications/Notion.app/Contents/Info.plist"
+        }
+    ]
+},
