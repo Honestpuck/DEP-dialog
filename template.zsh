@@ -12,7 +12,7 @@
 #
 # Based on:
 # - Adam Codega (@adamcodega)'s https://github.com/acodega/dialog-scripts/blob/main/MDMAppsDeploy.sh
-# - James Smith (@smithjw)'s https://github.com/smithjw/speedy-prestage-pkg/tree/feature/swiftDialog
+# - James Smith (@smithjw)'s https://github.com/smithjw/swiftEnrolment
 # - Dan K. Snelson (@dan-snelson)'s https://github.com/dan-snelson/dialog-scripts/tree/main/Setup%20Your%20Mac
 #
 ####################################################################################################
@@ -134,7 +134,7 @@ dialogCMD="$dialogApp --ontop --title \"$title\" \
 --progress $progress_total \
 --button1text \"Quit\" \
 --button1disabled \
---infotext \"v$scriptVersion\" \
+--infotext \"$scriptVersion\" \
 --blurscreen \
 --titlefont 'size=28' \
 --messagefont 'size=14' \
@@ -214,7 +214,7 @@ function echo_logger() {
 
     /bin/mkdir -p $logFolder
 
-    echo -e "$(/bin/date +%Y-%m-%d\ %H:%M:%S)  $1" |  /usr/bin/tee -a $logFolder/$logName
+    echo -e "$(/bin/date +%Y-%m-%d\ %H:%M:%S)  $1" |  /usr/bin/tee -a "$logFolder/$logName"
 }
 
 # Parse JSON via osascript and JavaScript

@@ -1,0 +1,10 @@
+# always
+.DS_Store
+# Ignore all the snippets
+*.json
+
+# except these four used for testing
+!Firefox.json
+!Canva.json
+!Notion.json
+!SophosEndpoint.json
