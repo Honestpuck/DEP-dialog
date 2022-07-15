@@ -13,7 +13,7 @@ if len(sys.argv) >= 2:
     snippet_list_file = sys.argv[1]
     script = script + "-" + snippet_list_file + ".zsh"
 else:
-    snippet_list_file = "snippets.txt"
+    snippet_list_file = "list.txt"
     script = script + ".zsh"
 snippet_directory = "./snippets"
 template = "./template.zsh"
